@@ -6,7 +6,7 @@ Este es un proyecto realizado durante el Bootcamp de Data Anatlytics en [Ironhac
 
 ## Objetivo:
 
-El objetivo de este proyecto es la creación de una API.
+El objetivo de este proyecto es **la creación de una API**.
 
 He decidido crear una API sobre las peliculas de **Harry Potter**. Para ello me he basado en célebres frases utilizadas en las peliculas de la saga de la escritora británica **J.K. Rowling**.
 
@@ -44,11 +44,7 @@ Para conseguir mi objetivo, he seguido los siguientes pasos:
 
 - *api .py*: conecta la API y proporciona los "Endpoints".
 
-- *checking .py*: _______________________
-
 - *tests.ipynb*: archivo de Jupyter Notebook donde compruebo que la API funciona.
-
-- *data > HP_quotes.csv*: archivo .csv utilzado como ejemplo para la realización de la API.
 
 - *sentiment_analysis*: archivo de Jupyter Notebook donde realizo el "análisis de sentimiento".
    
@@ -73,7 +69,8 @@ Para conseguir mi objetivo, he seguido los siguientes pasos:
    - [TextBlob](https://textblob.readthedocs.io/en/dev/)   
    - [Natural Language Toolkit](https://www.nltk.org/)
   
- - ¿Quieres conocer qué personaje de la muestra realizada tiene la mayor puntuación? 
+ - ¿Quieres conocer qué personaje de la muestra realizada tiene la mayor polaridad?
+   ![mains](/image/mains.png)
   
 ## Referencias:
 
