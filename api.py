@@ -13,48 +13,49 @@ app = Flask("harrypotterapi")
 
 #Bienvenid@ a la API!
 
-@app.route("/welcome") #FUNCIONA!
+@app.route("/welcome") 
 def welcome():
     return "Welcome to the magical world of Harry Potter"
 
 # Mostrar todos los quotes;
 
-@app.route("/phrase") #FUNCIONA!
+@app.route("/phrase") 
 def list_phrases():
     qts = get_quotes()
     return jsonify(qts)
 
 # Mostrar un quote;
 
-@app.route("/phrase/<phrase>") #FUNCIONA!
+@app.route("/phrase/<phrase>") 
 def list_one_phrase(phrase):
     qo = get_one_quote(phrase)
     return jsonify(qo)   
 
 # Mostrar todos los persoanajes;    
 
-@app.route("/characters") #FUNCIONA!
+@app.route("/characters") 
 def list_characters():
     ch = get_characters()
     return jsonify(ch)
 
 # Mostrar un persoanaje;   
 
-@app.route("/characters/<character>") #FUNCIONA!
+@app.route("/characters/<character>") 
 def list_one_char(character):
     co = get_one_char(character)
     return jsonify(co)  
 
 # Mostrar todas las peliculas;  
 
-@app.route("/movies") #FUNCIONA!
+@app.route("/movies") 
 def list_movies():
     mv = get_movies()
     return jsonify(mv)
 
 # Mostrar una pelicula; 
 
-@app.route("/movies/<movie>") #FUNCIONA!
+@app.route("/movies/<movie>") 
+
 def list_one_movie(movie):
     mo = get_one_movie(movie)
     return jsonify(mo)

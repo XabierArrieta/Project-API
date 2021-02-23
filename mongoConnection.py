@@ -3,6 +3,7 @@ from pymongo import MongoClient
 client = MongoClient()
 
 # 3 Collecciones
+
 quots = client.harrypotter.quotes
 chars = client.harrypotter.cast
 movs = client.harrypotter.movies
