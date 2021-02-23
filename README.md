@@ -44,7 +44,7 @@ Para conseguir mi objetivo, he seguido los siguientes pasos:
 
 - *api .py*: conecta la API y proporciona los "Endpoints".
 
-- *tests.ipynb*: archivo de Jupyter Notebook donde compruebo que la API funciona.
+- *api test.ipynb*: archivo de Jupyter Notebook donde compruebo que la API funciona.
 
 - *sentiment_analysis*: archivo de Jupyter Notebook donde realizo el "análisis de sentimiento".
    
